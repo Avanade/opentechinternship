@@ -18,7 +18,7 @@ const ImageCarousel = () => {
           alt="First Slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>The first time you turn it on you will see this screen</h3>
         </Carousel.Caption>
       </Carousel.Item>
 
