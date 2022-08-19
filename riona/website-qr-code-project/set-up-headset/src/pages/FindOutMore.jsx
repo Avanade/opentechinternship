@@ -1,9 +1,14 @@
 import React from 'react';
+import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import HeaderAndNavBar from '../components/header.jsx';
 
 export default function FindOutMore() {
     return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>Find Out More</h2>
-      </main>
+      <div className="FindOutMore">
+      <HeaderAndNavBar />
+      <h1>Find Out More</h1>
+    </div>
     );
   }

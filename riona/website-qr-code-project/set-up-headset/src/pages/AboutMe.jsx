@@ -1,11 +1,13 @@
 import React from 'react';
+import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-//import Header from './src/components/header.jsx';
+import HeaderAndNavBar from '../components/header.jsx';
 
 function AboutMe() {
   return (
     <div className="AboutMe">
-      {/* <Header /> */}
+      <HeaderAndNavBar />
       <h1>About Me</h1>
     </div>
   );

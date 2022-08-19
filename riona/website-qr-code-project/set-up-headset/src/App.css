@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.AboutMe {
+  text-align: center;
+}
+
+.StepByStep {  
+  text-align: center;
+}
+
+.TipsAndTricks {
+  text-align: center;
+}
+
+.FindOutMore {
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

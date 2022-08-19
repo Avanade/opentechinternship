@@ -1,20 +1,25 @@
 import React, { useState } from 'react';
 
+import windows_screen from '../images/magic-moment.png';
+import hummmingbird_1 from '../images/hummingbird-1.png';
+import hummmingbird_2 from '../images/hummingbird-2.png';
+
+import '../css_componets/humming_bird.css';
+
 import { Carousel } from 'react-bootstrap';
 
 const ImageCarousel = () => {
-    const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0);
 
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
 
-    return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+  return (
+    <Carousel className = "Hummingbird" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src=".\images\magic-moment.png"
+          src= { windows_screen } 
           alt="First Slide"
         />
         <Carousel.Caption>
@@ -24,8 +29,7 @@ const ImageCarousel = () => {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="set-up-headset\src\images\hummingbird-1.png"
+          src={ hummmingbird_1 }
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -35,8 +39,7 @@ const ImageCarousel = () => {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="set-up-headset\src\images\hummingbird-2.png"
+          src={ hummmingbird_2 }
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -44,7 +47,7 @@ const ImageCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    )
+  )
 }
 
 export default ImageCarousel

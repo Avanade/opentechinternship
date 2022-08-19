@@ -1,17 +1,22 @@
 import React from 'react';
 import { Navbar, Container, Nav, Form, Button } from 'react-bootstrap';
 
+import logo from '../images/avanade_logo.png';
+
+import '../css_componets/header_nav.css';
+
 import { Link } from "react-router-dom";
 
 const HeaderAndNavBar = () => {
     return (
-        <><Link to="/home" style={{ color: "black", textDecoration: 'none' }}><h1>HoloLens 2</h1></Link>
+        <><Link to="/" style={{ color: "navy", textDecoration: 'none' }}><h1>HoloLens 2</h1></Link>
+
             <Navbar bg="dark" variant="dark" expand="lg">
-                <Container>
-                    <Navbar.Brand><Link to="/home" style={{ color: "white", textDecoration: 'none' }}>
+                <Container className = "Logo">
+                    <Navbar.Brand><Link to="/" style={{ color: "white", textDecoration: 'none' }}>
                         <img
-                            src="./images/avanade_logo.png"
-                            alt="Insert Logo"
+                            src= { logo }
+                            alt="Logo"
                         />
                     </Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="top-navbar-nav" />

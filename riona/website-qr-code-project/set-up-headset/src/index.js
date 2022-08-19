@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 
-import HomePage from './pages/HomePage';
 import AboutMe from './pages/AboutMe';
 import StepByStep from './pages/StepByStep';
 import TipsAndTricks from './pages/TipsAndTricks';
@@ -19,7 +18,6 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="home" element={<HomePage />} />
       <Route path="about-me" element={<AboutMe />} />
       <Route path="step-by-step" element={<StepByStep />} />
       <Route path="tips-and-tricks" element={<TipsAndTricks />} />
