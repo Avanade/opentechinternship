@@ -2,14 +2,19 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import HeaderAndNavBar from './components/header';
+import HomePageCard from './components/home_card';
 
 function App() {
   return (
     <div className="App">
       <HeaderAndNavBar />
+
+      <Container>
+        <HomePageCard />
+      </Container>
     </div>
   );
 }
