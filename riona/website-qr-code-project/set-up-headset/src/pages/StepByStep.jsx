@@ -8,6 +8,8 @@ import HeaderAndNavBar from '../components/header';
 import ImageCarousel from '../components/carousel';
 import StepCard1 from '../components/step_card_1';
 import StepCard2 from '../components/step_card_2';
+import StepCard3 from '../components/step_card_3';
+import StepCard4 from '../components/step_card_4';
 
 function StepByStep() {
   return (
@@ -16,18 +18,30 @@ function StepByStep() {
       <Container>
         <Row>
           <Col>
-          <h1>Step by Step Guide</h1>
+            <h1>Step by Step Guide</h1>
           </Col>
         </Row>
         <br />
         <Row>
           <Col><StepCard1 /></Col>
+        </Row>
+        <br />
+        <Row>
           <Col><StepCard2 /></Col>
         </Row>
         <br />
         <Row>
           <Col><ImageCarousel /></Col>
         </Row>
+        <br />
+        <Row>
+          <Col><StepCard3 /></Col>
+        </Row>
+        <br />
+        <Row>
+          <Col><StepCard4 /></Col>
+        </Row>
+        <br />
       </Container>
     </div>
   );

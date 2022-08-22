@@ -1,5 +1,6 @@
 .card{
-    background-color: #222;
     color: #fff;
-
+    background-color: #6c757d;
+    border: #6c757d;
+    text-align: left;
 } 

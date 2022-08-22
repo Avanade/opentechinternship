@@ -2,23 +2,22 @@ import React from 'react';
 
 import '../css_componets/card_css.css';
 
-import { Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 
-const StepCard1 = () => {
+const StepCard3 = () => {
     return (
         <Card>
             {/*text colour rewrites react-boostrap - orginally white*/}
             <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
-                Step 1: Make sure you have the following below
+                Step 3: Set Up Language and Region
             </Card.Header>
             <Card.Body>
                 <Card.Text>
-                    <li>A network connection</li>
-                    <li>A Microsoft account</li>
-                    <li>A safe space with no tripping hazzards</li>
+                    <p>There will be a list of languages, pick your most preferred one.</p>
+                    <p>Once you click Next, there will be a list of region, pick yours, click Next again.</p>
                 </Card.Text>
             </Card.Body>
         </Card>
     )
 }
-export default StepCard1
+export default StepCard3
