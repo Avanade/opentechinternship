@@ -3,11 +3,31 @@
     background-color: #6c757d;
     border: #6c757d;
     text-align: left;
-} 
+}
 
-.card Important{
+.Important{
     color: #fff;
     background-color: #17a2b8;
     border: #677b8d;
     text-align: left;
-} 
+}
+
+.SignIn{
+    color: #fff;
+    background-color: #1b476e;
+    border: #6c757d;
+    text-align: left;
+}
+.signInSchWork {
+    color: #fff;
+    background-color: #275b88;
+    border: #677b8d;
+    text-align: left;
+}
+
+.signInPersonal {
+    color: #fff;
+    background-color: #275b88;
+    border: #677b8d;
+    text-align: left;
+}

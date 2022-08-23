@@ -13,6 +13,7 @@ import StepCard4 from '../components/step_card_4';
 import CalibrationImg from '../components/calibration_img';
 import NetworkStepCard from '../components/step_card_network';
 import LicenseImg from '../components/license_img';
+import SignInStepCard from '../components/step_card_signin';
 
 function StepByStep() {
   return (
@@ -51,6 +52,9 @@ function StepByStep() {
           <Col><LicenseImg /></Col>
         </Row>
         <br />
+        <Row>
+          <Col><SignInStepCard /></Col>
+        </Row>
       </Container>
     </div>
   );
