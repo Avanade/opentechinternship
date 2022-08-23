@@ -10,6 +10,9 @@ import StepCard1 from '../components/step_card_1';
 import StepCard2 from '../components/step_card_2';
 import StepCard3 from '../components/step_card_3';
 import StepCard4 from '../components/step_card_4';
+import CalibrationImg from '../components/calibration_img';
+import NetworkStepCard from '../components/step_card_network';
+import LicenseImg from '../components/license_img';
 
 function StepByStep() {
   return (
@@ -40,6 +43,12 @@ function StepByStep() {
         <br />
         <Row>
           <Col><StepCard4 /></Col>
+          <Col><CalibrationImg /></Col>
+        </Row>
+        <br />
+        <Row>
+          <Col><NetworkStepCard /></Col>
+          <Col><LicenseImg /></Col>
         </Row>
         <br />
       </Container>

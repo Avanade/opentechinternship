@@ -8,12 +8,16 @@ const StepCard2 = () => {
     return (
         <Card>
             {/*text colour rewrites react-boostrap - orginally white*/}
-            <Card.Header style ={{textAlign: "center", fontWeight: "bold"}}>Step 2: Set Up Windows</Card.Header>
+            <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>Step 2: Set Up Windows</Card.Header>
             <Card.Body>
                 <Card.Text>
-                    <p>Below is the following animations you will start 
-                        to see when you turn the Holo Lens on for the first time.</p>
-                    <p>A windows square button will appear click on it, to start.</p>
+                    <p>
+                        Below is the following animations you will start
+                        to see when you turn the Holo Lens on for the first time.
+                    </p>
+                    <p>
+                        A windows square button will appear click on it, to start.
+                    </p>
                     <Container>
                         "insert tip"
                     </Container>

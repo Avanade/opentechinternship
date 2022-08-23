@@ -8,13 +8,24 @@ const WebsiteCard = () => {
     return (
         <Card>
             {/*text colour rewrites react-boostrap - orginally white*/}
-            <Card.Header style ={{textAlign: "center"}}>React/React-Bootstrap Website</Card.Header>
+            <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
+                React/React-Bootstrap Website
+            </Card.Header>
             <Card.Body>
-                <ul>This is the website I created for my project.</ul>
-                <ul>I created a guide on how to use a HoloLens Gen2 
+                <p>
+                    This is the website I created for my project.
+                </p>
+                <p>I created a guide on how to use a HoloLens Gen2
                     since I felt like as someone who didn't know how to use it either.
-                    I wanted to make sure new users have a less confusing experience.</ul>
-                <ul>Make sure to check my tips and tricks webpage.</ul>
+                    I wanted to make sure new users have a less confusing experience.
+                </p>
+                <p>
+                    Also since more clients ware being introduced into virtual reality headesets this will be helpful
+                    to reassure them that isn't a hard thing to set up or use.
+                </p>
+                <p>
+                    Make sure to check my tips and tricks webpage.
+                </p>
             </Card.Body>
         </Card>
     )

@@ -1,15 +1,16 @@
 import React from 'react';
 
 import '../css_componets/card_css.css';
+import '../css_componets/image.css';
 
 import { Card } from 'react-bootstrap';
 
 const StepCard4 = () => {
     return (
-        <Card>
+        <Card className="Important">
             {/*text colour rewrites react-boostrap - orginally white*/}
             <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
-                "Important" Step 4: Calibrating the HoloLens to your eyes
+                Step 4: Calibrating the HoloLens to your eyes
             </Card.Header>
             <Card.Body>
                 <Card.Text>
@@ -26,7 +27,15 @@ const StepCard4 = () => {
                         but try not to stare at other objects in the room or physical space.
                     </p>
                     <p>
-                        HoloLens 
+                        Please try to not move your head as much and only move your eyes where possible.
+                    </p>
+                    <p>
+                        HoloLens uses this process to learn your unique eye position
+                        so that you can see your holographic world more clearly.
+                    </p>
+                    <p>
+                        After calibration, holograms will appear correctly
+                        even as the visor shifts on your head. As seen to the right.
                     </p>
                 </Card.Text>
             </Card.Body>
