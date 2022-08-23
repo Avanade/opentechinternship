@@ -7,8 +7,8 @@
 
 .Important{
     color: #fff;
-    background-color: #496c71;
-    border: #677b8d;
+    background-color: #891a1a;
+    border: #f79494;
     text-align: left;
 }
 
@@ -29,5 +29,13 @@
     color: #fff;
     background-color: #275b88;
     border: #677b8d;
+    text-align: left;
+}
+
+/* Find Out More Page */
+.findOutMore {
+    color: #fff;
+    background-color: #8164ce;
+    border: #35168a;
     text-align: left;
 }

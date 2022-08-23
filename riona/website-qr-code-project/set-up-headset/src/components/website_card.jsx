@@ -6,7 +6,7 @@ import { Card } from 'react-bootstrap';
 
 const WebsiteCard = () => {
     return (
-        <Card>
+        <Card className="findOutMore">
             {/*text colour rewrites react-boostrap - orginally white*/}
             <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
                 React/React-Bootstrap Website
@@ -20,8 +20,8 @@ const WebsiteCard = () => {
                     I wanted to make sure new users have a less confusing experience.
                 </p>
                 <p>
-                    Also since more clients ware being introduced into virtual reality headesets this will be helpful
-                    to reassure them that isn't a hard thing to set up or use.
+                    Also since more clients are being introduced into virtual reality headsets 
+                    this will be helpful to reassure them that isn't a hard thing to set up or use.
                 </p>
                 <p>
                     Make sure to check my tips and tricks webpage.

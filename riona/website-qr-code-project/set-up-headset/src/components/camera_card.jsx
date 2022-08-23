@@ -6,7 +6,7 @@ import { Card } from 'react-bootstrap';
 
 const CameraCard = () => {
     return (
-        <Card>
+        <Card className="findOutMore">
             {/*text colour rewrites react-boostrap - orginally white*/}
             <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
                 Luxonis Camera using DepthAi Libaries on Github

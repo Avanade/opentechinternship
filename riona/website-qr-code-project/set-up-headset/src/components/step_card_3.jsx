@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../css_componets/card_css.css';
 
-import { Card, Container } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 const StepCard3 = () => {
     return (

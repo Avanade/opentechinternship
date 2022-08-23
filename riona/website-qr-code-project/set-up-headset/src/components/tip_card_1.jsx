@@ -9,11 +9,13 @@ const TipCard1 = () => {
         <Card>
             {/*text colour rewrites react-boostrap - orginally white*/}
             <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
-                Tip: 
+                Tip:
             </Card.Header>
             <Card.Body>
                 <Card.Text>
-                    
+                    <Container>
+
+                    </Container>
                 </Card.Text>
             </Card.Body>
         </Card>
