@@ -5,6 +5,8 @@ import '../css_componets/image.css';
 
 import { Card, Container, Row, Col } from 'react-bootstrap';
 
+import { ExclamationTriangle } from 'react-bootstrap-icons';
+
 const StepCard4 = () => {
     return (
         <Card className="Important">
@@ -26,11 +28,11 @@ const StepCard4 = () => {
                                     To calibrate, your eyes will be looking at different targets (gems).
                                 </p>
                                 <p>
-                                    It's fine if you blink or close your eyes during calibration,
-                                    but try not to stare at other objects in the room or physical space.
+                                    <ExclamationTriangle style={{fontSize: "20", fontWeight: "bold"}}/> It's fine if you blink or close your eyes during 
+                                    calibration, but try not to stare at other objects in the room or physical space.
                                 </p>
                                 <p>
-                                    Please try to not move your head as much and only move your eyes where possible.
+                                    <ExclamationTriangle style={{fontSize: "20", fontWeight: "bold"}}/> Please try to not move your head as much and only move your eyes where possible.
                                 </p>
                                 <p>
                                     HoloLens uses this process to learn your unique eye position
