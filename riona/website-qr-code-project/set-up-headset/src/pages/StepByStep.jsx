@@ -14,6 +14,9 @@ import CalibrationImg from '../components/calibration_img';
 import NetworkStepCard from '../components/step_card_network';
 import LicenseImg from '../components/license_img';
 import SignInStepCard from '../components/step_card_signin';
+import SignInDeviceStepCard from '../components/device_signin';
+import EnableSettingsStepCard from '../components/enable';
+import DirectToTips from '../components/go_to_tips';
 
 function StepByStep() {
   return (
@@ -55,6 +58,19 @@ function StepByStep() {
         <Row>
           <Col><SignInStepCard /></Col>
         </Row>
+        <br />
+        <Row>
+          <Col><SignInDeviceStepCard /></Col>
+        </Row>
+        <br />
+        <Row>
+          <Col><EnableSettingsStepCard /></Col>
+        </Row>
+        <br />
+        <Row>
+          <Col><DirectToTips /></Col>
+        </Row>
+        <br />
       </Container>
     </div>
   );

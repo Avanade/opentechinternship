@@ -2,24 +2,23 @@ import React from 'react';
 
 import '../css_componets/card_css.css';
 
-import { Card, Container } from 'react-bootstrap';
-import { Magic } from 'react-bootstrap-icons';
+import { Card } from 'react-bootstrap';
 
-const TipCard1 = () => {
+const PinStepCard = () => {
     return (
-        <Card>
+        <Card className="Pin">
             {/*text colour rewrites react-boostrap - orginally white*/}
             <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
-                <Magic style={{ fontSize: "20", fontWeight: "bold" }} /> Personal Prefference
+                Step 8: Create a PIN
             </Card.Header>
             <Card.Body>
                 <Card.Text>
                     <p>
-                        Wearing glasses might affect performance of the holo lens.
+                        This PIN is device specific.
                     </p>
                 </Card.Text>
             </Card.Body>
         </Card>
     )
 }
-export default TipCard1
+export default PinStepCard
