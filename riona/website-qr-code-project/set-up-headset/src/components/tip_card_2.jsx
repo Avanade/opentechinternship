@@ -5,24 +5,27 @@ import '../css_componets/card_css.css';
 import { Card } from 'react-bootstrap';
 import { Magic } from 'react-bootstrap-icons';
 
-const TipCard1 = () => {
+const TipCard2 = () => {
     return (
         <Card>
             {/*text colour rewrites react-boostrap - orginally white*/}
             <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}>
-                <Magic style={{ fontSize: "20", fontWeight: "bold" }} /> Interacting with Images
+                <Magic style={{ fontSize: "20", fontWeight: "bold" }} /> Vision Related
             </Card.Header>
             <Card.Body>
                 <Card.Text>
                     <p>
-                        Slow with purpose means when looking around make sure the movements are gentle.
+                        Wearing glasses might affect performance of the holo lens.
                     </p>
                     <p>
-                        As well as any gestures to be firm and purposeful.
+                        In terms of seeing clearer images and able to interact with them too.
+                    </p>
+                    <p>
+                        Make sure you have pushed down the visor completely.
                     </p>
                 </Card.Text>
             </Card.Body>
         </Card>
     )
 }
-export default TipCard1
+export default TipCard2

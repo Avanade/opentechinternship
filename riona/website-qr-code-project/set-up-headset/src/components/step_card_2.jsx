@@ -2,7 +2,9 @@ import React from 'react';
 
 import '../css_componets/card_css.css';
 
-import { Card, Container } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+
+import { Magic } from 'react-bootstrap-icons';
 
 const StepCard2 = () => {
     return (
@@ -18,9 +20,12 @@ const StepCard2 = () => {
                     <p>
                         A windows square button will appear click on it, to start.
                     </p>
-                    <Container>
-                        "insert tip"
-                    </Container>
+                    <p>
+                        <a href="http://localhost:3000/tips-and-tricks">
+                            <Magic style={{ fontSize: "20", fontWeight: "bold", color: "white" }} /> 
+                        </a>
+                        Slow wtih purpose.
+                    </p>
                 </Card.Text>
             </Card.Body>
         </Card>

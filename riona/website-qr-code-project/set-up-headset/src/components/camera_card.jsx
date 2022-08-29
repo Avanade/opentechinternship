@@ -16,14 +16,13 @@ const CameraCard = () => {
                     I finished my website and converted my website into a qr code first.
                 </p>
                 <p>
-                    Then I worked with the code provided on git hub from: "git hub repo link to qr detect"
+                    Then I worked with the code provided on git hub from:
+                    https://github.com/luxonis/depthai-experiments/tree/master/gen2-qr-code-scanner
                 </p>
                 <p>
-                    My biggest issue was ...
-                </p>
-                <p>
-                    I also now have to find a way how the website can be deployed from
-                    any device since currently it is stored on my local machine.
+                    Unfortunately I can't use this code effectively as it only detects a qr code,
+                    and doesn't actually scan it so instead I will be finding a way to deploy it
+                    from any device since currently it is stored on my local machine.
                 </p>
             </Card.Body>
         </Card>
